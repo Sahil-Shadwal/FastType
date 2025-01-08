@@ -7,7 +7,7 @@ import { useState } from 'react'
 // if nothing works - set bg anyway
 
 export const themes = [
-  { name: 'Espresso', bar: 'hsl(0deg 12% 8%)' }, // 0 - bg works
+  { name: 'Mechanical', bar: 'hsl(210deg 11% 15%)' }, // 0 - bg works
   { name: 'Campfire', bar: 'hsl(216deg 5% 21%)' }, // 1 - secondary
   { name: 'Classic', bar: 'hsl(57deg 14% 67%)' }, // 2 - secondary
   { name: 'Halloween', bar: 'hsl(311deg 38% 6%)' }, // 3 - none worked - bg
@@ -20,7 +20,7 @@ export const themes = [
   { name: 'Aesthete', bar: 'hsl(0deg 0% 13%)' }, // 10 - none worked, bg
   { name: 'Sunlit', bar: 'hsl(210deg 100% 30%)' }, // 11 - none worked, bg
   { name: 'Witchcraft', bar: 'hsl(205deg 37% 8%)' }, // 12
-  { name: 'Mechanical', bar: 'hsl(210deg 11% 15%)' }, // 13
+  { name: 'Espresso', bar: 'hsl(0deg 12% 8%)' }, // 13
   { name: 'Night Owl', bar: 'hsl(258deg 53% 7%)' }, //  14 - none worked, bg
   { name: 'Forest', bar: 'hsl(198deg 100% 8%)' } // 15
 ]
